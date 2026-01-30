@@ -72,7 +72,7 @@ Clean, minimal syntax
 
 # Language Commands (v0.8)
 **Musical Structure**
-Command	Description
+
 @Tempo(bpm)	Set tempo
 @Scale("Major/Minor")	Set scale
 @Chord("notes", duration, volume)	Play a chord
@@ -80,7 +80,7 @@ Command	Description
 
 
 **Sound Design**
-Command	Description
+
 @Waveform("Triangle/Square/Saw/Noise")	Sound texture
 @ADSR(a,d,s,r)	Envelope shaping
 @Reverb(amount, decay)	Space
@@ -88,13 +88,13 @@ Command	Description
 
 
 **Transitions**
-Command	Description
+
 @FadeIn(seconds)	Smooth start
 @FadeOut(seconds)	Smooth end
 
 
 **Control Flow**
-Command	Description
+
 @loop(n){ ... }	Repeat block
 
 
