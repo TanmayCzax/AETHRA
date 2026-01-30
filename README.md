@@ -144,7 +144,7 @@ Create feature branches
 MIT License
 Free to use
 
-Name Meaning
-
+# Name Meaning
+(It is a Greek word)
 ÆTHRA — derived from Aether, the classical element of the sky.
 Symbolizes sound beyond the physical, music as atmosphere, emotion as code. 
