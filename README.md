@@ -1,4 +1,10 @@
 # ÆTHRA
+<p align="center">
+  <img src="logo.png" alt="ÆTHRA Logo" width="200">
+</p>
+
+<h1 align="center">ÆTHRA</h1>
+<p align="center"><b></b></p>
 
 **A Musical Programming Language for Emotion-Driven Sound**
 
