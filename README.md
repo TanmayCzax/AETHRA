@@ -8,7 +8,7 @@
 
 **A Musical Programming Language for Emotion-Driven Sound**
 
-*ÆTHRA is an experimental domain-specific programming language (DSL) designed to compose music using code.
+*ÆTHRA is a new domain-specific programming language (DSL) in version 0.8, designed to compose music using code.
 Instead of focusing on low-level audio math, ÆTHRA lets creators express emotion, harmony, and musical structure through readable commands.*
 
 # ÆTHRA is built for:
