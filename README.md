@@ -82,6 +82,7 @@ Clean, minimal syntax
 @Tempo(bpm)	Set tempo
 @Scale("Major/Minor")	Set scale
 @Chord("notes", duration, volume)	Play a chord
+
 @Rest(seconds)	Silence
 
 
