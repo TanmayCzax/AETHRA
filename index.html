@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ÆTHRA — Write Music as Code</title>  <!-- Google Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">  <style>
+    :root {
+      --bg: #0b0b0f;
+      --purple: #5b2eff;
+      --cyan: #4dfff3;
+      --silver: #dadada;
+      --gold: #ffd369;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #120e2a, var(--bg));
+      color: var(--silver);
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 5rem;
+      letter-spacing: 0.4rem;
+      color: var(--gold);
+      text-shadow: 0 0 40px rgba(255, 211, 105, 0.3);
+      animation: fadeIn 2s ease;
+    }
+
+    .subtitle {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      opacity: 0.85;
+      animation: fadeIn 3s ease;
+    }
+
+    .buttons {
+      margin-top: 2.5rem;
+      display: flex;
+      gap: 1.2rem;
+    }
+
+    .btn {
+      padding: 0.8rem 1.8rem;
+      border-radius: 40px;
+      border: 1px solid var(--cyan);
+      background: transparent;
+      color: var(--cyan);
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: var(--cyan);
+      color: #000;
+      box-shadow: 0 0 25px rgba(77, 255, 243, 0.6);
+    }
+
+    section {
+      padding: 6rem 10vw;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--gold);
+    }
+
+    .text {
+      max-width: 800px;
+      line-height: 1.8;
+      opacity: 0.9;
+    }
+
+    .example {
+      margin-top: 3rem;
+      background: linear-gradient(145deg, #0f0f1a, #07070c);
+      border-radius: 16px;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    pre {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--cyan);
+      font-size: 0.95rem;
+    }
+
+    .play {
+      align-self: center;
+      font-size: 1.1rem;
+      color: var(--silver);
+    }
+
+    footer {
+      padding: 3rem;
+      text-align: center;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+
+    canvas {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 900px) {
+      h1 { font-size: 3.5rem; }
+      .example { grid-template-columns: 1fr; }
+    }
+  </style></head>
+<body><canvas id="wave"></canvas>
+
+<header>
+  <h1>ÆTHRA</h1>
+  <div class="subtitle">Writing music as code · Turning emotion into sound</div>  <div class="buttons">
+    <button class="btn" onclick="location.href='https://github.com/TanmayCzax/AETHRA'">GitHub</button>
+    <button class="btn">Listen to Code</button>
+  </div>
+</header><section>
+  <div class="section-title">What is ÆTHRA?</div>
+  <p class="text">
+    ÆTHRA is a music-focused programming language designed to express emotion, rhythm, and silence through code.
+    It is not about complexity — it is about feeling. Every line you write becomes sound.
+  </p>  <div class="example">
+    <pre>track "life" {
+  tempo 72
+  emotion deepplay piano [C, G, Am, F] pause 2s
+
+fade_out }</pre>
+
+<div class="play">
+  ▶ This code sounds calm, reflective, and real.
+</div>
+
+  </div>
+</section><section>
+  <div class="section-title">Philosophy</div>
+  <p class="text">
+    Life has rhythm. Silence matters as much as sound. ÆTHRA exists to code what words cannot express.
+    It is music for programmers, and programming for musicians.
+  </p>
+</section><footer>
+  © 2026 ÆTHRA Programming Language · Open Source
+</footer><script>
+  const canvas = document.getElementById('wave');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+
+  let t = 0;
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.beginPath();
+    ctx.strokeStyle = 'rgba(77,255,243,0.15)';
+    ctx.lineWidth = 2;
+
+    for (let x = 0; x < canvas.width; x += 10) {
+      const y = canvas.height / 2 + Math.sin(x * 0.01 + t) * 40;
+      ctx.lineTo(x, y);
+    }
+
+    ctx.stroke();
+    t += 0.02;
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+</script></body>
+    </html>
