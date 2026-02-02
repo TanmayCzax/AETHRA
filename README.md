@@ -8,6 +8,8 @@
 
 # GitHub Website -- https://tanmayczax.github.io/AETHRA/
 
+# Official Website -- https://aethralang.pages.dev/
+
 **A Musical Programming Language for Emotion-Driven Sound**
 
 *ÆTHRA is a new domain-specific programming language (DSL) in version 0.8, designed to compose music using code.
