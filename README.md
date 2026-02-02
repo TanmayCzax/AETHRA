@@ -6,7 +6,7 @@
 <h1 align="center">ÆTHRA</h1>
 <p align="center"><b></b></p>
 
-**Official Website**
+**Official Repo**
 # GitHub Website -- https://tanmayczax.github.io/AETHRA/
 
 # Official Website -- https://aethralang.pages.dev/
