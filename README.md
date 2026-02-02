@@ -6,7 +6,7 @@
 <h1 align="center">ÆTHRA</h1>
 <p align="center"><b></b></p>
 
-# Official Website -- https://tanmayczax.github.io/AETHRA/
+# GitHub Website -- https://tanmayczax.github.io/AETHRA/
 
 **A Musical Programming Language for Emotion-Driven Sound**
 
