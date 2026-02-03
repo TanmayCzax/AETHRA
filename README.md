@@ -85,7 +85,9 @@ Clean, minimal syntax
 **Musical Structure**
 
 @Tempo(bpm)	Set tempo
+
 @Scale("Major/Minor")	Set scale
+
 @Chord("notes", duration, volume)	Play a chord
 
 @Rest(seconds)	Silence
@@ -94,14 +96,18 @@ Clean, minimal syntax
 **Sound Design**
 
 @Waveform("Triangle/Square/Saw/Noise")	Sound texture
+
 @ADSR(a,d,s,r)	Envelope shaping
+
 @Reverb(amount, decay)	Space
+
 @Echo(delay, feedback)	Depth
 
 
 **Transitions**
 
 @FadeIn(seconds)	Smooth start
+
 @FadeOut(seconds)	Smooth end
 
 
