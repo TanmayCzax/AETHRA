@@ -74,10 +74,10 @@ Single-file scripts
 
 WAV audio export
 
+Clean, minimal syntax
+
 # SCREENSHOT
 <img width="1002" height="682" alt="Capture2" src="https://github.com/user-attachments/assets/81e86cf7-a075-44af-961b-ff5f82d6a253" />
-
-Clean, minimal syntax
 
 **Example: Sad Chord Progression**
 @Tempo(60)
