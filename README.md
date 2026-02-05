@@ -21,7 +21,7 @@ Instead of focusing on low-level audio math, ÆTHRA lets creators express emotio
 
 **Till now TESTED ONLY ON WINDOWS**
 
-# Also, the file uploaded is also only for windows Till now
+# Also, the file uploaded is only for windows Till now
 
 # ÆTHRA is built for:
 
@@ -29,7 +29,7 @@ Music-driven programmers
 
 Creative coders
 
-Audio experiments
+Audio export 
 
 Algorithmic & emotional composition
 
