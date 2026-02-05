@@ -9,8 +9,6 @@
 **Official Repo**
 # GitHub Website -- https://tanmayczax.github.io/AETHRA/
 
-# Sorry but do not download it today 😔
-
 # Official Website -- https://aethralang.pages.dev/
 
 # Creator's Website
