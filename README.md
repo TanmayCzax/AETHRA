@@ -1,4 +1,4 @@
-# ÆTHRA
+# ÆTHRA VERSION 1.0
 <p align="center">
   <img src="logo.png" alt="ÆTHRA LOGO" width="400">
 </p>
@@ -29,6 +29,16 @@ Audio experiments
 
 Algorithmic & emotional composition
 
+# What Changed from version 0.8 / What's new?
+
+CROSS PLATFORM
+
+MORE COMMANDS
+
+BETTER EXAMPLES
+
+**STILL FREE AND EASY**
+
 # Philosophy
 
 Music is logic. Emotion is structure. Code is the bridge.
@@ -36,7 +46,7 @@ Music is logic. Emotion is structure. Code is the bridge.
 ÆTHRA treats music as a sequence of intentions, not wave equations.
 You describe what you want to feel — ÆTHRA handles how it sounds.
 
-# Features (v0.8)
+# Features (v1.0)
 
 Chord-based composition (no need for raw notes)
 
@@ -56,9 +66,16 @@ Loops & repetition
 
 Crash-proof interpreter (safe parsing)
 
+Vibrato
+
+Drums
+
 Single-file scripts
 
 WAV audio export
+
+# SCREENSHOT
+<img width="1002" height="682" alt="Capture2" src="https://github.com/user-attachments/assets/81e86cf7-a075-44af-961b-ff5f82d6a253" />
 
 Clean, minimal syntax
 
@@ -130,8 +147,6 @@ Interpreter: Written in C# (.NET)
 Output: WAV audio files
 
 # Roadmap (v1.0)
-
-Planned features:
 
 Instrument profiles
 
