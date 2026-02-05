@@ -76,9 +76,11 @@ WAV audio export
 
 Clean, minimal syntax
 
-# SCREENSHOTS
+# SCREENSHOT 1
+
 <img width="997" height="681" alt="Capture3" src="https://github.com/user-attachments/assets/1c1fcb3b-0444-4de4-91e9-7f2f4a8f348e" />
 
+# SCREENSHOT 2
 
 <img width="1002" height="682" alt="Capture2" src="https://github.com/user-attachments/assets/81e86cf7-a075-44af-961b-ff5f82d6a253" />
 
