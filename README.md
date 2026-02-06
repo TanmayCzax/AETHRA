@@ -138,6 +138,8 @@ Clean, minimal syntax
 @Chord(C4 F4 A4, 3)
 @Note(C4, 1)
 
+**WANT TO SEE THE OUTPUT? VISIT https://audio.com/p-k-mishra-1/audio/aethra-output**
+**NOTE -- THE ABOVE FILE IS NOT FROM THE OFFICIAL SOURCE!*
 # Language Commands (v0.8)
 **Musical Structure**
 
