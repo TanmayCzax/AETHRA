@@ -88,27 +88,55 @@ Clean, minimal syntax
 
 <img width="1002" height="682" alt="Capture2" src="https://github.com/user-attachments/assets/81e86cf7-a075-44af-961b-ff5f82d6a253" />
 
-**Example: Sad Chord Progression**
-@Tempo(60)
-@Scale("Minor")
-@Reverb(0.7, 0.5)
-@Echo(0.5, 0.4)
-@Waveform("Triangle")
-
-@FadeIn(4)
-
-@Chord("A3 C4 E4", 4, 0.6)
-@Rest(1)
-@Chord("F3 A3 C4", 4, 0.6)
-@Rest(1)
-@Chord("G3 B3 D4", 4, 0.6)
-@Rest(1)
-@Chord("A3 C4 E4", 6, 0.5)
-
-@FadeOut(5)
+**Example: Chill Song**
+@Tempo(110)
+@Volume(0.8)
+@Instrument("Sine")
+@ADSR(0.05, 0.1, 0.8, 0.2)
 
 
-# Result: a slow, emotional, cinematic soundscape.
+@Note(C4, 1)
+@Note(D4, 1)
+@Note(E4, 1)
+@Note(G4, 1)
+@Chord(C4 E4 G4, 2)
+@Chord(F4 A4 C5, 2)
+
+@Arpeggio(C5 E5 G5, 1.5, 0.8, "up")
+@Arpeggio(G4 B4 D5, 1.5, 0.8, "down")
+@Chord(G4 B4 D5, 2)
+@Note(C5, 1)
+
+
+@Note(E4, 1)
+@Note(F4, 1)
+@Note(G4, 1)
+@Chord(C4 G4 C5, 2)
+@Arpeggio(F4 A4 C5, 1.5, 0.7, "up")
+@Chord(F4 A4 C5, 2)
+
+@Note(D4, 1)
+@Note(E4, 1)
+@Note(F4, 1)
+@Chord(G4 B4 D5, 2)
+@Arpeggio(C5 E5 G5, 1.5, 0.8, "up")
+@Chord(C5 E5 G5, 2)
+
+@Chord(F4 A4 C5, 1.5)
+@Chord(G4 B4 D5, 1.5)
+@Arpeggio(C5 D5 E5 G5, 2, 0.7, "up")
+@Note(C5, 1)
+@Note(B4, 1)
+
+
+@Chord(C4 E4 G4, 2)
+@Arpeggio(F4 A4 C5, 2, 0.8, "down")
+@Note(E4, 1)
+@Note(D4, 1)
+@Note(C4, 2)
+
+@Chord(C4 F4 A4, 3)
+@Note(C4, 1)
 
 # Language Commands (v0.8)
 **Musical Structure**
