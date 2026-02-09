@@ -217,4 +217,5 @@ Free to use
 ÆTHRA — derived from Aether, the classical element of the sky.
 Symbolizes sound beyond the physical, music as atmosphere, emotion as code. 
 
+**Contributors -- Czax Studio and TanmayCzax
 # Languages used are C# and a little bit of HTML
