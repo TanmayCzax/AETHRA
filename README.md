@@ -9,6 +9,9 @@
 **Official Repo**
 # GitHub Website -- https://tanmayczax.github.io/AETHRA/
 
+**Should I add more features? 
+Answer in pull requests**
+
 # Official Website -- https://aethralang.pages.dev/
 
 # Creator's Website
