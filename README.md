@@ -7,12 +7,12 @@
 <p align="center"><b></b></p>
 
 **Official Repo**
-# GitHub Website -- https://tanmayczax.github.io/AETHRA/
+# GitHub Website -- [AETHRA](https://tanmayczax.github.io/AETHRA/)
 
 **Shall I add more features? 
 Answer in pull requests**
 
-# Official Website -- https://aethralang.pages.dev/
+# Official Website -- [Website](https://aethralang.pages.dev/)
 
 # Creator's Website
 # https://czax.pages.dev/
